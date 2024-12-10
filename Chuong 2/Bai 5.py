@@ -13,4 +13,4 @@ if D == 0:
 else:
     x = Dx / D
     y = Dy / D
-    print("He phuong trinh co nghiem: {0} {1}".format(x,y))
+    print("{0} {1}".format(x,y))
