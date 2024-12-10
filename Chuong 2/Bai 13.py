@@ -10,6 +10,6 @@ def TinhTong(n):
 n = int(input())
 if n >= 0:
     kq = TinhTong(n)
-    print("{kq}".format(kq))
+    print("{0}".format(kq))
 else:
     print("n phải là số nguyên không âm.")
