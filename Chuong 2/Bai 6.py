@@ -4,9 +4,9 @@ def TinhTong(n):
         S = S + i
     return S * 3
 
-n = int(input("Nhập n: "))
+n = int(input())
 if n > 0:
     kq = TinhTong(n)
-    print("Tổng S = {0}".format(kq))
+    print("{0}".format(kq))
 else:
     print("n phải là số nguyên dương.")
